@@ -1,0 +1,16 @@
+
+	You can use compile.sh to  compile our code, and start by:
+		./start.sh n n n n n n hostname
+	or: 
+		./precompute.sh n n n n n n hostname 
+
+	The agent order is: [FB] [FS] [PF] [PO] [AT] [AC], and we use 'n' for 'all agent'.
+
+	If you don't want to start all agents, please replace the corresponding 'n' with the number you want.
+	For example: "./precompute.sh 1 0 0 0 0 0 hostname", you will start one FB, and zero for others.
+
+
+	WHEN PRE-COMPUTATION IS ALLOEWED, PLEASE USE: 
+
+		./precompute.sh n n n n n n hostname
+
